@@ -1,0 +1,10 @@
+# ملفات النظام
+.DS_Store
+Thumbs.db
+# بيئات تطوير
+node_modules/
+.env
+node_modules/
+npm-debug.log
+# VSCode
+.vscode/
