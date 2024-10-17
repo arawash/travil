@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define variables
-PROJECT_NAME="multi-tenant-app-with-code"
+PROJECT_NAME="multi-tenant-app"
 MONGO_DB_NAME="multitenantdb"
-NODE_VERSION="20"  # Specify the Node.js version to use
+NODE_VERSION="14"  # Specify the Node.js version to use
 PORT="3000"
 
 # Step 1: Install system dependencies
@@ -12,8 +12,8 @@ sudo apt update && sudo apt install -y curl git build-essential
 
 # Step 2: Install Node.js
 echo "Installing Node.js version $NODE_VERSION..."
-curl -fsSL https://deb.nodesource.com/setup_$NODE_VERSION.x | sudo -E bash -
-sudo apt install -y nodejs
+#curl -fsSL https://deb.nodesource.com/setup_$NODE_VERSION.x | sudo -E bash -
+#sudo apt install -y nodejs
 
 # Step 3: Create project directory
 echo "Setting up project directory..."
